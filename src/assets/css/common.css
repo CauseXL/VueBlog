@@ -1,0 +1,56 @@
+/*通用样式*/
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  height: 100%;
+  /*background:#ebf0f0;*/
+  /*百分百撑起高度*/
+}
+body{
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  color:#404040;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+a{
+  text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*登录注册通用样式*/
+.container {
+  margin: 0;
+  background: url('../img/bg.jpg') no-repeat center;
+  background-size: cover;
+  min-width: 680px;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.login_form, .reg_form {
+  border-radius: 5px;
+  width: 350px;
+  background-color: #F9FAFC;
+  border: 2px solid #8492A6;
+  padding: 35px 35px 15px 35px;
+  opacity: .8;
+  margin: 150px auto 20px auto;
+}
+.title {
+  text-align: center;
+  color: #505458;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.reg_button, .login_button{
+  margin-top: 20px;
+}
