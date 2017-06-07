@@ -180,8 +180,8 @@
 #### 安装后端依赖
 `进入到server文件夹下，安装后端依赖：npm install`
 
-#### 启动后端服务器
-`npm start`
+#### 启动后端服务器 (server目录下)
+`supervisor app.js`
 
 
 #### 启动前端项目
